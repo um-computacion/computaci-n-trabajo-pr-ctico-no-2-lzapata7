@@ -16,3 +16,9 @@ def is_palindrome(value):
         return True
     else:
         return False
+
+entrada = input("Ingrese una palabra o frase: ")
+if is_palindrome(entrada):
+    print("Es un palíndromo")
+else:
+    print("No es un palíndromo")
